@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial';
+}
+div {
+    width: 300px;
+    margin: 30px auto;
+}
+div:before {
+    content: "2018 Top Film Chart";
+    display: block;
+    text-align: center;
+    background: #4a9a5f;
+    color: #fff;
+    padding: 25px;
+    font-size: 20px;
+}
+ul {
+    display: inline-block;
+    width: 50%;
+}
+ul:first-child li {
+    border-left: 1px solid #d8d8d8;
+    border-right: 1px solid #d8d8d8;
+}
+ul:last-child li {
+    border-right: 1px solid #d8d8d8;
+}
+ul li:nth-child(even) {
+    background-color: #f7f7f7;
+}
+ul:first-child:before {
+    content:"Name";
+    display: block;
+    width:100%;
+    padding: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    box-sizing: border-box;
+    background: #448d55;
+    color: #fff;
+
+}
+ul:last-child:before {
+    content:"Rating";
+    display: block;
+    width:100%;
+    padding: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    box-sizing: border-box;
+    background: #448d55;
+    color: #fff;
+
+}
+li {
+    list-style: none;   
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #d8d8d8;
+    font-size: 12px;
+}
